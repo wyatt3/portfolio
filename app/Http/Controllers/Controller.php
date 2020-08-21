@@ -7,11 +7,14 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
+use App\Project;
+
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function getIndex() {
-        return view('welcome');
+        $projects = Project::paginate(6);
+        return view('home', ['projects' => $projects]);
     }
 }

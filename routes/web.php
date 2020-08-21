@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'Controller@getIndex')->name('home');
+Auth::routes(['register' => false]);
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
+    Route::get('home', 'Controller@getIndex')->name('admin.home');
+});
+
