@@ -8,27 +8,27 @@
 }
 
 @media (min-width: 768px) {
-    .profile-image {
-        width: 450px;
+    .contact-section {
+        width: 65%;
+    }
+    .update-card {
+        height: 300px;
+    }
+    .project-card {
+        height: 230px;
+    }
+    .project-card-body {
+        height: 85px;
     }
 }
+
 @media (min-width: 992px) {
-    .card {
-        height: 475px;
-    }
     .profile-image {
         width: 325px;
     }
-}
-@media (min-width: 1200px) {
-    .card {
-        height: 375px;
-    }
+
 }
 
 .underline {
     text-decoration: underline;
-}
-.card-template {
-    display: none;
 }

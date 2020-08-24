@@ -8,13 +8,23 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 use App\Project;
+use App\BlogPost;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function getIndex() {
-        $projects = Project::paginate(6);
-        return view('home', ['projects' => $projects]);
+        $projects = Project::paginate(6, ['*'], 'portfolio');
+        $updates = BlogPost::paginate(3, ['*'], 'updates');
+        return view('home', ['projects' => $projects, 'updates' => $updates]);
+    }
+
+    public function postIndex(Request $request) {
+
+    }
+
+    public function getAdminIndex() {
+        return view('admin.home');
     }
 }

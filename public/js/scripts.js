@@ -29,25 +29,5 @@
     message: "Email Sent!"
   });
 
-  $(".contact-form").validate({
-    rules: {
-      name: "required",
-      email: {
-        required: true,
-        email: true,
-      },
-      message: "required",
-
-    },
-    messages: {
-      name: "Please enter you name.",
-      email: {
-        required: "Please enter an email.",
-        email: "Please enter a valid email.",
-      },
-      message: "Please enter a message for me!"
-    }
-  });
-
 })(jQuery); // End of use strict
   

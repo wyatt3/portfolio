@@ -12,9 +12,17 @@ class ProjectsTableSeeder extends Seeder
      */
     public function run()
     {
-        for($i = 0; $i <= 35; $i++) {
+        $project = new Project([
+            'title' => 'My Cars',
+            'oneline' => 'A free, online car care app',
+            'description' => 'My Cars',
+            'link' => 'https://mycars.wyattjohnson.net',
+        ]);
+        $project->save();
+        for($i = 0; $i <= 8; $i++) {
             $project = new Project([
                 'title' => 'Test ' . $i,
+                'oneline' => 'Test Oneline ' . $i,
                 'description' => 'Test Description ' . $i,
                 'link' => '#page-top'
             ]);
