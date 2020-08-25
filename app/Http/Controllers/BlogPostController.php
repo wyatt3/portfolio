@@ -11,12 +11,30 @@ class BlogPostController extends Controller
         return view('admin.updates.home', ['posts' => $posts]);
     }
 
-    public function getEdit($id) {
+    public function getAdd() {
+        return view('admin.updates.add');
+    }
+
+    public function postStore(Request $request) {
         
     }
 
+    public function getShow($id) {
+        $post = BlogPost::find($id);
+        return view('admin.updates.show', ['post' => $post]);
+    }
+    
+    public function getEdit($id) {
+        $post = BlogPost::find($id);
+        return view('admin.updates.edit', ['post' => $post]);
+    }
+
     public function postUpdate(Request $request) {
-        
+        $post = BlogPost::find($request->id);
+        $post->title = $request->title;
+        $post->content = $request->content;
+        $post->save();
+        return redirect()->route('updates.index')->with('message', 'Post Updated');
     }
 
     public function getDelete($id) {

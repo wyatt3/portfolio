@@ -12,7 +12,7 @@ class BlogPostsTableSeeder extends Seeder
      */
     public function run()
     {
-        for($i = 0; $i <= 25; $i++) {
+        for($i = 0; $i <= 10; $i++) {
             $post = new BlogPost([
                 'title' => 'Title ' . $i,
                 'content' => 'Update Post ' . $i,

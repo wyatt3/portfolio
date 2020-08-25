@@ -87,7 +87,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a soon-to-be graduated Web Developer, and I live in Logan, UT. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
             <p>I am currently enrolled in the Web & Mobile Development program at Bridgerland Technical College. I am 960 hours into the 1050-hour program.</p></div>
-            <div class="col-md-12 col-lg-3 text-center"><img class="profile-image rounded" src="{{ asset('img/profileImage.jpg') }}" alt="profile image"></div>
+            <div class="col-md-12 col-lg-3 text-center"><img class="profile-image rounded" src="{{ asset('storage/img/profileImage.jpg') }}" alt="profile image"></div>
             <div class="col-md-3"></div>
         </div>
     </div>
@@ -135,7 +135,7 @@
                     </div>
                     <div class="col-md-12 col-lg-4">
                         <h3><i class="foundicon-edit"></i> Download my Resume <i class="foundicon-edit"></i></h3>
-                        <a class="btn btn-primary text-light" href="assets/WyattJohnson.pdf" Download>Download WyattJohnson.pdf <i class="foundicon-inbox"></i></a>
+                        <a class="btn btn-primary text-light" href="{{ asset('storage/WyattJohnson.pdf') }}" Download>Download WyattJohnson.pdf <i class="foundicon-inbox"></i></a>
                         <br>
                         <br>
                     </div>
