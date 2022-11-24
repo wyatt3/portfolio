@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://wyattjohnson.net/</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/gasMileage/includes/database_error.php</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/responsiveFinal/</loc>
+  <lastmod>2020-07-02T15:19:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/storage/WyattJohnson.pdf</loc>
+  <lastmod>2020-08-25T18:15:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/login</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/about</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/login</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/register</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/10</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/6</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/7</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/?page=2</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/?page=3</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/?page=4</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/password/reset</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/password/reset</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/8</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/9</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/2</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/?page=1</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/3</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/4</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/5</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wyattjohnson.net/portfolio/laravelFinal/public/post/1</loc>
+  <lastmod>2020-09-11T17:53:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

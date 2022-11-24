@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177832403-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-177832403-1');
+	</script>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Wyatt Johnson">
-        <title>Wyatt Johnson - Portfolio</title>
+	<meta name="description" content="Wyatt Johnson. A Web Developer based in Logan, UT. I specialize in the Laravel framework, and mostly focus on back-end development. This is my portfolio site.">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+        <title>Wyatt Johnson - Web Developer Portfolio</title>
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.ico') }}">
         <!-- Font Awesome icons -->
@@ -40,8 +49,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="{{ asset('js/overhang.js') }}"></script>
+        <script src="{{ asset('js/overhang.min.js') }}"></script>
         <!-- Core theme JS-->
         <script src="{{ asset('js/scripts.js') }}"></script>
+	<script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "Wyatt Johnson","url": "https://www.wyattjohnson.net","sameAs": ["https://www.facebook.com/wyatt.johnson12177/","https://www.instagram.com/wyatt.johnson_/","https://www.linkedin.com/in/wyatt-johnson-aa50421a3/"]}</script>
     </body>
 </html>

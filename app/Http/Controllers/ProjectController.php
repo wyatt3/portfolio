@@ -35,12 +35,12 @@ class ProjectController extends Controller
 
     public function getShow($id) {
         $project = Project::find($id);
-        return view('admin.projects.show');
+        return view('admin.projects.show', ['project' => $project]);
     }
     
     public function getEdit($id) {
         $project = Project::find($id);
-        return view('admin.projects.edit');
+        return view('admin.projects.edit', ['project' => $project]);
     }
 
     public function postUpdate(Request $request) {
@@ -50,6 +50,13 @@ class ProjectController extends Controller
             'description' => 'required',
             'link' => 'required'
         ]);
+        $project = Project::find($request->id);
+        $project->title = $request->title;
+        $project->oneline = $request->oneline;
+        $project->description = $request->description;
+        $project->link = $request->link;
+        $project->save();
+        return redirect()->route('projects.index')->with('message', 'Project Successfully Updated!');
     }
 
     public function getDelete($id) {

@@ -1,0 +1,221 @@
+[12-Mar-2020 12:32:20 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function confirmLoggedIn(), 0 passed in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/edit_entry_form.php on line 4 and exactly 1 expected in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php:8
+Stack trace:
+#0 /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/edit_entry_form.php(4): confirmLoggedIn()
+#1 {main}
+  thrown in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 8
+[25-Jun-2020 15:09:10 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[27-Jun-2020 13:50:27 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[01-Jul-2020 20:08:57 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[01-Jul-2020 20:09:06 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[01-Jul-2020 20:09:07 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[01-Jul-2020 20:09:07 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[01-Jul-2020 20:09:12 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[01-Jul-2020 20:09:12 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[01-Jul-2020 22:37:00 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[01-Jul-2020 22:37:00 CST6CDT] PHP Notice:  Undefined index: loggedIn in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 9
+[01-Jul-2020 22:37:00 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 15
+[01-Jul-2020 22:37:00 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 22
+[01-Jul-2020 23:06:18 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[06-Jul-2020 12:47:31 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[06-Jul-2020 12:47:33 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[06-Jul-2020 12:47:33 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[06-Jul-2020 12:47:33 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[06-Jul-2020 13:02:57 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[09-Jul-2020 11:42:07 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[17-Jul-2020 00:29:04 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[17-Jul-2020 00:29:09 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[17-Jul-2020 00:29:09 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[17-Jul-2020 00:29:09 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 00:29:13 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[17-Jul-2020 00:29:13 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 00:49:09 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[17-Jul-2020 00:49:09 CST6CDT] PHP Notice:  Undefined index: loggedIn in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 9
+[17-Jul-2020 00:49:09 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 15
+[17-Jul-2020 00:49:09 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 22
+[17-Jul-2020 10:47:54 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[17-Jul-2020 10:47:54 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 10:48:02 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[17-Jul-2020 10:48:02 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 10:48:03 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/account.php on line 4
+[17-Jul-2020 10:48:03 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 10:48:06 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[17-Jul-2020 10:48:06 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 10:48:10 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/add_car_form.php on line 4
+[17-Jul-2020 10:48:10 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[17-Jul-2020 10:48:12 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[17-Jul-2020 10:48:12 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[18-Jul-2020 12:24:20 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[18-Jul-2020 12:24:20 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[18-Jul-2020 12:24:20 CST6CDT] PHP Notice:  Undefined index: loggedIn in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 9
+[18-Jul-2020 12:24:20 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[18-Jul-2020 12:24:20 CST6CDT] PHP Notice:  Undefined variable: carName in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 23
+[18-Jul-2020 12:24:20 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[18-Jul-2020 12:24:26 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[18-Jul-2020 12:24:26 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[18-Jul-2020 12:24:26 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[18-Jul-2020 12:24:33 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[18-Jul-2020 12:24:33 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[18-Jul-2020 15:36:43 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[18-Jul-2020 15:38:32 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[18-Jul-2020 15:38:32 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[19-Jul-2020 10:14:03 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[19-Jul-2020 10:14:03 CST6CDT] PHP Notice:  Undefined index: loggedIn in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 9
+[19-Jul-2020 10:14:03 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 15
+[19-Jul-2020 10:14:03 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 22
+[21-Jul-2020 11:57:03 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[21-Jul-2020 11:57:19 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[21-Jul-2020 11:57:19 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 11:57:19 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 11:57:32 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/add_car_form.php on line 4
+[21-Jul-2020 11:57:32 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:01:38 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:01:38 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:02:03 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[21-Jul-2020 12:02:03 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:02:06 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:02:06 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:02:10 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[21-Jul-2020 12:02:10 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:02:21 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:02:21 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:04:03 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[21-Jul-2020 12:04:03 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:04:17 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:04:17 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:05:00 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:05:00 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:05:06 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:05:06 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:05:16 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/add_car_form.php on line 4
+[21-Jul-2020 12:05:16 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:07:38 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:07:38 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:07:44 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/add_car_form.php on line 4
+[21-Jul-2020 12:07:44 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:08:55 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:08:55 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:18:16 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/account.php on line 4
+[21-Jul-2020 12:18:16 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[21-Jul-2020 12:18:33 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[21-Jul-2020 12:18:33 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[27-Jul-2020 12:03:17 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[27-Jul-2020 12:03:19 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[27-Jul-2020 12:03:19 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[27-Jul-2020 12:03:19 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[27-Jul-2020 12:03:28 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/account.php on line 4
+[27-Jul-2020 12:03:28 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[27-Jul-2020 12:03:29 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[27-Jul-2020 12:03:29 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[27-Jul-2020 18:33:51 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[27-Jul-2020 18:33:51 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[28-Jul-2020 10:05:11 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[28-Jul-2020 10:05:20 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[28-Jul-2020 10:05:20 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[28-Jul-2020 10:05:20 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[28-Jul-2020 10:05:30 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[28-Jul-2020 10:05:30 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 12:28:36 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 12:28:46 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 12:29:10 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 12:29:52 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 12:29:52 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[29-Jul-2020 12:29:52 CST6CDT] PHP Notice:  Undefined index: loggedIn in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 9
+[29-Jul-2020 12:29:52 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 12:29:53 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 12:29:58 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 12:29:59 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 12:29:59 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 12:30:03 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/fill_up_form.php on line 4
+[29-Jul-2020 12:30:03 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:47:19 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 19:47:23 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[29-Jul-2020 19:47:24 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 19:47:24 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:47:50 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 19:47:50 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:47:59 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 19:47:59 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:48:13 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 19:48:13 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:48:19 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 19:48:19 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:48:23 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/add_car_form.php on line 4
+[29-Jul-2020 19:48:23 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[29-Jul-2020 19:48:24 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[29-Jul-2020 19:48:24 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[31-Jul-2020 11:09:17 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[31-Jul-2020 11:09:22 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[31-Jul-2020 11:09:22 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[31-Jul-2020 11:09:22 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[03-Aug-2020 12:09:43 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[03-Aug-2020 12:09:43 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[03-Aug-2020 12:16:25 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[03-Aug-2020 12:16:25 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[03-Aug-2020 15:04:22 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[03-Aug-2020 15:04:26 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[03-Aug-2020 15:04:26 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[03-Aug-2020 15:04:26 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[03-Aug-2020 18:21:32 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[04-Aug-2020 15:18:39 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[04-Aug-2020 15:18:39 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 4
+[04-Aug-2020 15:18:39 CST6CDT] PHP Notice:  Undefined index: loggedIn in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 9
+[04-Aug-2020 15:18:39 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 14
+[04-Aug-2020 15:18:39 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/home.php on line 5
+[04-Aug-2020 15:18:39 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 22
+[04-Aug-2020 15:18:39 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[04-Aug-2020 18:20:12 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 03:45:27 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 10:16:33 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 10:23:47 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wj-web-projects.xyz/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 10:54:57 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 11:16:37 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 11:16:42 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 11:16:42 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 11:16:47 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 11:16:47 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/home.php on line 4
+[05-Aug-2020 11:16:47 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:16:54 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/home.php on line 4
+[05-Aug-2020 11:16:54 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:16:55 CST6CDT] PHP Warning:  bcdiv(): Division by zero in /home/customer/www/wyattjohnson.net/public_html/gasMileage/gasMileage.php on line 71
+[05-Aug-2020 11:16:59 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/home.php on line 4
+[05-Aug-2020 11:16:59 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:17:01 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/add_maint_record_form.php on line 4
+[05-Aug-2020 11:17:01 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:17:11 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/home.php on line 4
+[05-Aug-2020 11:17:11 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:17:14 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/home.php on line 4
+[05-Aug-2020 11:17:14 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:17:15 CST6CDT] PHP Warning:  bcdiv(): Division by zero in /home/customer/www/wyattjohnson.net/public_html/gasMileage/gasMileage.php on line 71
+[05-Aug-2020 11:17:16 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/fill_up_form.php on line 4
+[05-Aug-2020 11:17:16 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:17:36 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/edit_entry_form.php on line 4
+[05-Aug-2020 11:17:36 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:17:44 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/edit_entry_form.php on line 4
+[05-Aug-2020 11:17:44 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:18:02 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/edit_entry_form.php on line 4
+[05-Aug-2020 11:18:02 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:18:15 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/edit_entry_form.php on line 4
+[05-Aug-2020 11:18:15 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:18:26 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/edit_entry_form.php on line 4
+[05-Aug-2020 11:18:26 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 11:18:59 CST6CDT] PHP Notice:  Undefined variable: car in /home/customer/www/wyattjohnson.net/public_html/gasMileage/home.php on line 4
+[05-Aug-2020 11:18:59 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 14
+[05-Aug-2020 12:34:17 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 12:41:46 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 13:15:52 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 14:08:17 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[05-Aug-2020 20:33:29 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[06-Aug-2020 10:02:04 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[06-Aug-2020 10:59:37 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[07-Aug-2020 10:40:22 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[08-Aug-2020 06:37:56 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[10-Aug-2020 15:30:22 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[10-Aug-2020 15:52:49 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[10-Aug-2020 16:14:43 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[12-Aug-2020 01:15:48 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[12-Aug-2020 01:16:17 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[13-Aug-2020 08:11:40 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[14-Aug-2020 07:27:59 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[14-Aug-2020 07:28:00 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[16-Aug-2020 04:16:00 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3
+[16-Aug-2020 04:16:17 CST6CDT] PHP Notice:  Undefined index: userID in /home/customer/www/wyattjohnson.net/public_html/gasMileage/includes/functions.php on line 3

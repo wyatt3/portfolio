@@ -20,7 +20,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <a class="text-light text-decoration-none" href="#" data-toggle="modal" data-target="#modal-project-{{ $project->id }}">
                 <div class="card project-card text-light bg-dark mb-4">
-                    <div class="card-header"><h1>{{ $project->title }}</h1></div>
+                    <div class="card-header"><h2>{{ $project->title }}</h2></div>
                     <div class="card-body project-card-body">
                         {{ $project->oneline }}
                     </div>
@@ -39,10 +39,10 @@
                             <button type="button" class="close text-light" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            {{ $project->description }}
+                            <?php echo html_entity_decode($project->description); ?>
                         </div>
                         <div class="modal-footer" style="border-top: solid 1px #222c3b">
-                            <button type="button" class="btn btn-warning mr-auto" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-warning text-light mr-auto" data-dismiss="modal">Close</button>
                             <a href="{{ $project->link }}" target="_blank" type="button" class="btn btn-primary">Take Me To This Site</a>
                         </div>
                     </div>
@@ -61,8 +61,8 @@
         <div class="mast-hr"><hr></div>
         <div class="row">
             @foreach($updates as $post)
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card update-card bg-dark mb-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card update-card bg-dark mb-4" style="height:100%">
                         <div class="card-header">
                             {{ $post->title }}<br>
                             Posted: {{ date_format($post->created_at, 'M jS, Y') }}
@@ -85,8 +85,8 @@
         <div class="section-hr"><hr></div>
         <div class="row text-justify mt-4">
             <div class="col-md-3"></div>
-            <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a soon-to-be graduated Web Developer, and I live in Logan, UT. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
-            <p>I am currently enrolled in the Web & Mobile Development program at Bridgerland Technical College. I am 960 hours into the 1050-hour program.</p></div>
+            <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a Web Developer in Logan, Utah. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
+            <p>I recently graduated from the Web & Mobile Development program at Bridgerland Technical College and I am currently employed as a Web eCommerce Developer at the worlds largest provider of fitness equipment, which is based here in Cache Valley. And here's a photo of me!</p></div>
             <div class="col-md-12 col-lg-3 text-center"><img class="profile-image rounded" src="{{ asset('storage/img/profileImage.jpg') }}" alt="profile image"></div>
             <div class="col-md-3"></div>
         </div>
@@ -94,27 +94,33 @@
 </section>
 
 <!-- Contact Section -->
-<?php
-    if (false) {
-        echo "<div class='over'></div>";
-        // mail("wyatt.j1834@gmail.com", "Contact - ".$_POST["name"], "Reply Email: ".$_POST["email"]." ".$_POST["message"]);
-    }
-?>
+@if(Session::has('mail'))
+    <div class='over'></div>
+@endif
 <section class="contact bg-primary text-light pb-5" id="contact">
     <div class="container contact-section">
         <h2 class="section-header">CONTACT</h2>
         <div class="mast-hr"><hr></div>
-        <form action="#contact" class="contact-form" method="POST">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        <form action="{{ route('contact') }}" class="contact-form" method="POST">
             @csrf
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <input class="form-control trans-light mb-3" type="text" name="name" placeholder="Full Name">
+                    <input class="form-control trans-light mb-3" type="text" name="name" placeholder="Full Name" value="{{ old('name') }}">
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
-                    <input class="form-control trans-light" type="email" name="email" placeholder="Email Address">
+                    <input class="form-control trans-light" type="email" name="email" placeholder="Email Address" value="{{ old('email') }}">
                 </div>
                 <div class="col-12 mb-3">
-                    <textarea class="form-control trans-light" rows="5" name="message" placeholder="Message"></textarea>
+                    <textarea class="form-control trans-light" rows="5" name="message" placeholder="Message">{{ old('message') }}</textarea>
                 </div>
                 <div class="col-12 col-lg-4">
                     <input type="submit" class="form-control btn btn-secondary" value="Send &nbsp; &raquo;">

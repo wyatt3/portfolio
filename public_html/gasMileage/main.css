@@ -1,0 +1,204 @@
+body {
+    background: #bebebe;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body {
+    background: #fff;
+    width:75%;
+    margin:auto;
+    border: solid 1px rgb(100, 100, 100);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1050px) {
+    body {
+        background: #fff;
+    }
+    .body {
+        width: 95%;
+        border:none;
+    }
+}
+
+header {
+    width:95%;
+    margin:auto;
+    color:rgb(60, 98, 192);
+    border-bottom: 1px solid #000;
+}
+
+h1, h2, h3 {
+    color:rgb(60, 98, 192);
+
+}
+
+aside {
+    float:left;
+    padding-left:10px;
+    padding-right:25px;
+}
+
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th, td {
+    border: dashed 1px #999;
+    margin: 0px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+footer p {
+    font-size: 13px;
+    text-align: right;
+    text-emphasis: italic;
+}
+footer {
+    margin:auto;
+    width:95%;
+}
+
+section {
+    padding-left: 50px;
+}
+
+.link {
+    padding-top: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: rgb(41, 64, 124);
+}
+
+.link:hover {
+    color: rgb(150, 75, 4);
+}
+
+a {
+    color: rgb(41, 64, 124);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(150, 75, 4);
+}
+
+.message {
+    margin-left: 25px;
+    background: #DEDEDE;
+    width: max-content;
+    border: solid 2px #999;
+}
+
+.message p {
+    padding: 6px;
+    margin: 0;
+}
+
+.homeButton {
+    margin-right: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(41, 64, 124);
+}
+
+.homeButton:hover {
+    color: rgb(150, 75, 4);
+}
+/* ------- Login Page --------- */
+
+.logIn {
+    padding-left: 25px;
+}
+
+.logIn input {
+    display:block;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.logOut {
+    float:right;
+    text-align: right;
+}
+
+.logOut input {
+    margin-top: 10px;
+    color: rgb(41, 64, 124);
+}
+
+.logOut input:hover {
+    color: rgb(150, 75, 4);
+}
+
+.carTable table {
+    margin-bottom: 35px;
+}
+
+.carTable h2 {
+    margin-top: 0px;
+}
+
+.emptySpace {
+    height:50px;
+}
+
+.dateTab {
+    min-width: 75px;
+}
+
+/* -------- fill up form -------- */
+.fillForm input {
+    margin: 20px 3px 0 0;
+}
+
+input[type=date] {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ------------- Home page ----------------- */
+
+.carImage, .carName {
+    display: inline-block;
+}
+
+.carImage {
+    margin-left: 25px;
+    margin-top: 25px;
+    max-height: 125px;
+    border-radius: 50%;
+}
+
+/* ---------------- Account page ------------------ */
+
+.accTable tr td {
+    color: purple;
+}
+
+/* ---------------- Add Car Page ----------------- */
+
+b {
+    color:red;
+}
+
+.warning {
+    width:75%;
+}
+
+/* ------------------ Maintenance Form ---------------- */
+
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14px;
+    margin-top: 20px;
+    width: 200px;
+    height: 85px;
+}
+
+#maintDesc {
+    float: left;
+    margin-top: 19px;
+    margin-right:3px;
+}

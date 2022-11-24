@@ -1,0 +1,38 @@
+.subheading {
+    margin-bottom: 0px;
+}
+
+.profile-image {
+    width: 300px;
+    text-align: center;
+}
+.card-header {
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+@media (min-width: 768px) {
+    .contact-section {
+        width: 65%;
+    }
+    .update-card {
+        height: 300px;
+    }
+    .project-card {
+        height: 230px;
+    }
+    .project-card-body {
+        height: 85px;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile-image {
+        width: 325px;
+    }
+
+}
+
+.underline {
+    text-decoration: underline;
+}

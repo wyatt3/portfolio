@@ -1,0 +1,164 @@
+body {
+    font-family: "raleway";
+    color: #808080;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+/* Logo Bar */
+
+.bgImage {
+    background-image: url(../images/tile.jpg);
+    background-size: repeat;
+}
+
+.logo {
+    width: 100%;
+}
+
+.topInfo {
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    margin-top: 40px;
+    border-top: 1px solid #5193D9;
+    border-bottom: 1px solid #5193D9;
+}
+
+.middleAlign {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+/* Hero Image */
+
+.heroImage {
+    background-image: url(../images/riverside_inn.jpg);
+    background-size: cover;
+    height: 425px;
+}
+
+/* Nav bar */
+
+.nav {
+    margin: 10px;
+}
+
+.nav li {
+    display:inline-block;
+}
+
+@media(max-width:768px) {
+    .nav li {
+        display: block;
+    }
+
+    footer ul{
+        display: none;
+    }
+}
+
+.nav li a{
+    color: #808080;
+    font-size: 17px;
+}
+
+/* Home */
+
+.row {
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+}
+
+/* Special */
+
+.vertAlign {
+    margin-top:140px;
+}
+
+.borderH {
+    border-bottom: 1px solid #5193D9;
+    padding-bottom: 7px;
+}
+
+#specialP {
+    font-size: 16px;
+}
+
+/* Contact */
+
+.form-container {
+    padding-top: 3em;
+    width: 75%;
+}
+
+.text-area {
+    padding-top: 0;
+}
+
+#message {
+    height: 120px;
+}
+
+#submitContact {
+    margin-bottom: 1.5em;
+    padding: 10px 35px;
+}
+
+/* Footer */ 
+
+footer {
+    display:inline;
+}
+
+footer ul {
+    float:left;
+}
+
+footer p {
+    margin:20px;
+    float:right;
+    font-size: 15px;
+}
+
+/* Menu Modal */
+
+.modal-content {
+    border-top: 15px solid #006600;
+    border-bottom: 15px solid #006600;
+}
+
+.modal-header {
+    border-bottom: 1px solid #006600;
+}
+.modal-header h1 {
+    font-size: 35px;
+}
+
+.modal-row {
+    padding-top: 0;
+}
+
+.modal-body h1 {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-footer {
+    border:none;
+    text-align: center;
+    padding-top:0;
+}
+
+button.close {
+    float:none;
+    font-size: 25px;
+    padding: 0 0 20px 0;
+}

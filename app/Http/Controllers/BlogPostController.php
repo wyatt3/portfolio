@@ -16,7 +16,16 @@ class BlogPostController extends Controller
     }
 
     public function postStore(Request $request) {
-        
+        $request->validate([
+            'title' => 'required',
+            'content' => 'required'
+        ]);
+        $post = new BlogPost([
+            'title' => $request->title,
+            'content' => $request->content,
+        ]);
+        $post->save();
+        return redirect()->route('updates.index')->with('message', 'Post Created Successfully');
     }
 
     public function getShow($id) {
@@ -34,12 +43,12 @@ class BlogPostController extends Controller
         $post->title = $request->title;
         $post->content = $request->content;
         $post->save();
-        return redirect()->route('updates.index')->with('message', 'Post Updated');
+        return redirect()->route('updates.index')->with('message', 'Post Successfully Updated!');
     }
 
     public function getDelete($id) {
         $post = BlogPost::find($id);
         $post->delete();
-        return redirect()->route('updates.index')->with('message', 'Post Deleted');
+        return redirect()->route('updates.index')->with('message', 'Post Successfully Deleted!');
     }
 }

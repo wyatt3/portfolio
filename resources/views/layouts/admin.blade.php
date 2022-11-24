@@ -22,6 +22,7 @@
                 background-image: url({{ asset('img/tile.jpg') }});
                 background-attachment: fixed;
             }
+            a {}
         </style>
     </head>
     <body class="bg-light">
@@ -29,16 +30,21 @@
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="{{ route('admin.home') }}">Home</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-light rounded py-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
+                    @if(Auth::user())
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="{{ route('projects.index') }}">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('updates.index') }}">Updates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('mail.index') }}">Messages</a></li>
                     </ul>
+                    @endif
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">View Public Page</a></li>
+                        @if(Auth::user())
                         <li class="nav-item"><a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a></li>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             @csrf
                         </form>
+                        @endif
                     </ul>
                 </div>
             </div>

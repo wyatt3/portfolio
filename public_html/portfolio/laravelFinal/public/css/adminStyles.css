@@ -1,0 +1,22 @@
+footer {
+    margin-top: 35px;
+    color: #999;
+}
+
+h2 {
+    color: #F4645F;
+}
+
+.warning-text {
+    font-weight: bold;
+    color: red;
+}
+
+.admin-post-separator {
+    margin: 0 0 10px 0;
+}
+
+.info {
+    font-size: 12px;
+    color: #999;
+}
