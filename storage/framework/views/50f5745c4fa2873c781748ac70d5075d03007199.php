@@ -1,0 +1,175 @@
+<?php $__env->startSection('content'); ?>
+
+<header class="bg-primary text-center text-light pb-5">
+    <div class="container align-items-center">
+        <img class="mt-5" src="<?php echo e(asset('img/avataaars.svg')); ?>" alt="" height="250px" width="250px">
+        <div class="mast-hr"><hr></div>
+        <h1>Wyatt Johnson</h1>
+        <h3 class="subheading">Web Developer</h3>
+    </div>
+</header >
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="section-header">PORTFOLIO</h2>
+        <div class="section-hr"><hr></div>
+        <div class="row">
+            <?php $__currentLoopData = $projects; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $project): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a class="text-light text-decoration-none" href="#" data-toggle="modal" data-target="#modal-project-<?php echo e($project->id); ?>">
+                <div class="card project-card text-light bg-dark mb-4">
+                    <div class="card-header"><h2><?php echo e($project->title); ?></h2></div>
+                    <div class="card-body project-card-body">
+                        <?php echo e($project->oneline); ?>
+
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-block btn-primary" href="#" data-toggle="modal" data-target="#modal-project-<?php echo e($project->id); ?>">More Info</a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-project-<?php echo e($project->id); ?>" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-secondary text-light">
+                        <div class="modal-header" style="border-bottom: solid 1px #222c3b">
+                            <h5 class="modal-title" id="exampleModalLabel"><?php echo e($project->title); ?></h5>
+                            <button type="button" class="close text-light" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <?php echo html_entity_decode($project->description); ?>
+                        </div>
+                        <div class="modal-footer" style="border-top: solid 1px #222c3b">
+                            <button type="button" class="btn btn-warning text-light mr-auto" data-dismiss="modal">Close</button>
+                            <a href="<?php echo e($project->link); ?>" target="_blank" type="button" class="btn btn-primary">Take Me To This Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+        </div>
+        <?php echo e($projects->fragment('portfolio')->links()); ?>
+
+    </div>
+</section>
+
+<!-- Updates Section -->
+<section class="updates bg-primary text-light pb-5" id="updates">
+    <div class="container">
+        <h2 class="section-header">UPDATES</h2>
+        <div class="mast-hr"><hr></div>
+        <div class="row">
+            <?php $__currentLoopData = $updates; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $post): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card update-card bg-dark mb-4" style="height:100%">
+                        <div class="card-header">
+                            <?php echo e($post->title); ?><br>
+                            Posted: <?php echo e(date_format($post->created_at, 'M jS, Y')); ?>
+
+                        </div>
+                        <div class="card-body">
+                            <?php echo e($post->content); ?>
+
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+        </div>
+        <?php echo e($updates->fragment('updates')->links('vendor.pagination.dark')); ?>
+
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about pb-5" id="about">
+    <div class="container">
+        <h2 class="section-header">ABOUT</h2>
+        <div class="section-hr"><hr></div>
+        <div class="row text-justify mt-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a Web Developer in Logan, Utah. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
+            <p>I recently graduated from the Web & Mobile Development program at Bridgerland Technical College and I am currently employed as a Web eCommerce Developer at the worlds largest provider of fitness equipment, which is based here in Cache Valley. And here's a photo of me!</p></div>
+            <div class="col-md-12 col-lg-3 text-center"><img class="profile-image rounded" src="<?php echo e(asset('storage/img/profileImage.jpg')); ?>" alt="profile image"></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<?php if(Session::has('mail')): ?>
+    <div class='over'></div>
+<?php endif; ?>
+<section class="contact bg-primary text-light pb-5" id="contact">
+    <div class="container contact-section">
+        <h2 class="section-header">CONTACT</h2>
+        <div class="mast-hr"><hr></div>
+        <?php if($errors->any()): ?>
+            <div class="alert alert-danger">
+                <ul>
+                    <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <li><?php echo e($error); ?></li>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+        <form action="<?php echo e(route('contact')); ?>" class="contact-form" method="POST">
+            <?php echo csrf_field(); ?>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <input class="form-control trans-light mb-3" type="text" name="name" placeholder="Full Name" value="<?php echo e(old('name')); ?>">
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                    <input class="form-control trans-light" type="email" name="email" placeholder="Email Address" value="<?php echo e(old('email')); ?>">
+                </div>
+                <div class="col-12 mb-3">
+                    <textarea class="form-control trans-light" rows="5" name="message" placeholder="Message"><?php echo e(old('message')); ?></textarea>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <input type="submit" class="form-control btn btn-secondary" value="Send &nbsp; &raquo;">
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- More Info Section -->
+<footer class="bg-secondary text-primary" id="additional-info">
+            <div class="container">
+                <div class="row text-center py-5">
+                    <div class="col-md-12 col-lg-4">
+                        <h3><i class="foundicon-location"></i> Location <i class="foundicon-location"></i></h3>
+                        <p>Logan, Utah<br>
+                        United States, 84321</p>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <h3><i class="foundicon-edit"></i> Download my Resume <i class="foundicon-edit"></i></h3>
+                        <a class="btn btn-primary text-light" href="<?php echo e(asset('storage/WyattJohnson.pdf')); ?>" Download>Download WyattJohnson.pdf <i class="foundicon-inbox"></i></a>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="col-md-12 col-lg-4">
+                        <h3><i class="foundicon-globe"></i> My Social Media <i class="foundicon-globe"></i></h3>
+                        <p>
+                            <a target="_blank" href="https://www.linkedin.com/in/wyatt-johnson-aa50421a3/"><i class="foundiconsoc-linkedin"></i> LinkedIn</a><br>
+                            <a target="_blank" href="https://www.instagram.com/wyatt.johnson_/"><i class="foundiconsoc-instagram"></i> Instagram</a><br>
+                            <a target="_blank" href="https://www.facebook.com/wyatt.johnson.12177/"><i class="foundiconsoc-facebook"></i> Facebook</a><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark d-block text-primary pr-3 pt-3 text-right">
+                <p class="float-left ml-3"><a href="<?php echo e(route('login')); ?>">
+                <?php if(Auth::user()): ?>
+                    Admin
+                <?php else: ?>
+                    Login
+                <?php endif; ?>
+                </a></p>
+                <p>&copy; 2020 Wyatt Johnson</p>
+            </div>
+        </footer>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /var/www/wyattjohnson/resources/views/home.blade.php ENDPATH**/ ?>
