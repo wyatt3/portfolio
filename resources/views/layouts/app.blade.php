@@ -11,9 +11,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Wyatt Johnson">
-	<meta name="description" content="Wyatt Johnson. A Web Developer based in Logan, UT. I specialize in the Laravel framework, and mostly focus on back-end development. This is my portfolio site.">
+	<meta name="description" content="Wyatt Johnson. A Software Engineer based in Logan, UT. I specialize in the Laravel framework, and mostly focus on back-end development. This is my portfolio site.">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8">
-        <title>Wyatt Johnson - Web Developer Portfolio</title>
+        <title>Wyatt Johnson - Software Engineer Portfolio</title>
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.ico') }}">
         <!-- Font Awesome icons -->

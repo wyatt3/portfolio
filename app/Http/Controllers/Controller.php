@@ -8,7 +8,6 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 use App\Project;
-use App\BlogPost;
 use App\Mail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -19,8 +18,7 @@ class Controller extends BaseController
 
     public function getIndex() {
         $projects = Project::orderBy('created_at', 'desc')->paginate(6, ['*'], 'portfolio');
-        $updates = BlogPost::orderBy('created_at', 'desc')->paginate(3, ['*'], 'updates');
-        return view('home', ['projects' => $projects, 'updates' => $updates]);
+        return view('home', ['projects' => $projects]);
     }
 
     public function postIndex(Request $request) {

@@ -7,7 +7,7 @@
         <img class="mt-5" src="{{ asset('img/avataaars.svg') }}" alt="" height="250px" width="250px">
         <div class="mast-hr"><hr></div>
         <h1>Wyatt Johnson</h1>
-        <h3 class="subheading">Web Developer</h3>
+        <h3 class="subheading">Software Engineer</h3>
     </div>
 </header >
 <!-- Portfolio Section -->
@@ -54,38 +54,14 @@
     </div>
 </section>
 
-<!-- Updates Section -->
-<section class="updates bg-primary text-light pb-5" id="updates">
-    <div class="container">
-        <h2 class="section-header">UPDATES</h2>
-        <div class="mast-hr"><hr></div>
-        <div class="row">
-            @foreach($updates as $post)
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="card update-card bg-dark mb-4" style="height:100%">
-                        <div class="card-header">
-                            {{ $post->title }}<br>
-                            Posted: {{ date_format($post->created_at, 'M jS, Y') }}
-                        </div>
-                        <div class="card-body">
-                            {{ $post->content }}
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-        </div>
-        {{ $updates->fragment('updates')->links('vendor.pagination.dark') }}
-    </div>
-</section>
-
 <!-- About Section -->
-<section class="about pb-5" id="about">
+<section class="about pb-5 bg-primary text-light" id="about">
     <div class="container">
         <h2 class="section-header">ABOUT</h2>
-        <div class="section-hr"><hr></div>
+        <div class="mast-hr"><hr></div>
         <div class="row text-justify mt-4">
             <div class="col-md-3"></div>
-            <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a Web Developer in Logan, Utah. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
+            <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a Software Engineer in Logan, Utah. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
             <p>I recently graduated from the Web & Mobile Development program at Bridgerland Technical College and I am currently employed as a Web eCommerce Developer at the worlds largest provider of fitness equipment, which is based here in Cache Valley. And here's a photo of me!</p></div>
             <div class="col-md-12 col-lg-3 text-center"><img class="profile-image rounded" src="{{ asset('storage/img/profileImage.jpg') }}" alt="profile image"></div>
             <div class="col-md-3"></div>
@@ -97,10 +73,10 @@
 @if(Session::has('mail'))
     <div class='over'></div>
 @endif
-<section class="contact bg-primary text-light pb-5" id="contact">
+<section class="contact pb-5" id="contact">
     <div class="container contact-section">
         <h2 class="section-header">CONTACT</h2>
-        <div class="mast-hr"><hr></div>
+        <div class="section-hr"><hr></div>
         @if ($errors->any())
             <div class="alert alert-danger">
                 <ul>
@@ -123,7 +99,7 @@
                     <textarea class="form-control trans-light" rows="5" name="message" placeholder="Message">{{ old('message') }}</textarea>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <input type="submit" class="form-control btn btn-secondary" value="Send &nbsp; &raquo;">
+                    <input type="submit" class="form-control btn btn-primary" value="Send &nbsp; &raquo;">
                 </div>
             </div>
         </form>

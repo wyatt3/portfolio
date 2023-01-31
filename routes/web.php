@@ -11,6 +11,9 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', 'Controller@getIndex')->name('home');
 Route::post('/', 'Controller@postIndex')->name('contact');
 
@@ -32,15 +35,6 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
         Route::get('edit/{id}', 'ProjectController@getEdit')->name('projects.edit');
         Route::get('delete/{id}', 'ProjectController@getDelete')->name('projects.delete');
         Route::get('{id}', 'ProjectController@getShow')->name('projects.show');
-    });
-    Route::group(['prefix' => 'updates'], function() {
-        Route::get('/', 'BlogPostController@getIndex')->name('updates.index');
-        Route::get('add', 'BlogPostController@getAdd')->name('updates.add');
-        Route::post('add', 'BlogPostController@postStore')->name('updates.store');
-        Route::post('edit', 'BlogPostController@postUpdate')->name('updates.update');
-        Route::get('edit/{id}', 'BlogPostController@getEdit')->name('updates.edit');
-        Route::get('delete/{id}', 'BlogPostController@getDelete')->name('updates.delete');
-        Route::get('{id}', 'BlogPostController@getShow')->name('updates.show');
     });
 });
 
