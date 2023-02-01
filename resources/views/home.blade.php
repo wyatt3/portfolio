@@ -94,8 +94,13 @@
                 <div class="col-12 col-lg-6 mb-3">
                     <input class="form-control trans-light" type="email" name="email" placeholder="Email Address" value="{{ old('email') }}">
                 </div>
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-1">
                     <textarea class="form-control trans-light" rows="5" name="message" placeholder="Message">{{ old('message') }}</textarea>
+                </div>
+                <div class="col-12 px-4 captcha-sub-text mb-2">
+                    This site is protected by reCAPTCHA and the Google
+                    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
                 </div>
                 <div class="col-12 col-lg-4">
                     <button class="g-recaptcha form-control btn btn-primary" data-sitekey="6LetjEEkAAAAAJ447PTPxwcxmsI46S2KPTWT1oSb" data-callback='onSubmit' data-action='submit'>Send &nbsp; &raquo;</button>
