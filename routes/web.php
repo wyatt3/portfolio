@@ -21,6 +21,7 @@ Auth::routes(['register' => false]);
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('/', 'Controller@getAdminIndex')->name('admin.home');
+    route::post('/about/update', 'Controller@postAdminUpdateBio')->name('about.update');
     Route::post('profile-image', 'Controller@postAdminChangeProfileImage')->name('profile.image');
     Route::post('resume', 'Controller@postAdminChangeResume')->name('profile.resume');
     Route::group(['prefix' => 'mail'], function() {

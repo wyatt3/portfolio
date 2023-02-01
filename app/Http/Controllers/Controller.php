@@ -18,7 +18,9 @@ class Controller extends BaseController
 
     public function getIndex() {
         $projects = Project::orderBy('created_at', 'desc')->paginate(6, ['*'], 'portfolio');
-        return view('home', ['projects' => $projects]);
+        $bio_path = public_path('storage/bio.txt');
+        $bio = file_get_contents($bio_path);
+        return view('home', ['projects' => $projects, 'bio' => $bio]);
     }
 
     public function postIndex(Request $request) {
@@ -41,15 +43,27 @@ class Controller extends BaseController
     }
 
     public function getAdminIndex() {
-        return view('admin.home');
+        $file_path = public_path("storage/bio.txt");
+        $bio = file_exists($file_path) ? file_get_contents($file_path) : file_put_contents($file_path, '');
+        return view('admin.home', ['bio' => $bio]);
     }
+
+    public function postAdminUpdateBio(Request $request) {
+        $request->validate([
+            'bio' => 'required|string',
+        ]);
+        $content = $request->bio;
+        $file_path = public_path("storage/bio.txt");
+        file_put_contents($file_path, $content);
+        return redirect()->route('admin.home')->with('message', 'About Text Successfully Updated!');
+    } 
 
     public function postAdminChangeProfileImage(Request $request) {
         $request->validate([
             'photo' => 'image|required'
         ]);
         $request->photo->storeAs('public/img/', 'profileImage.jpg');
-        return redirect()->route('admin.home')->with('Profile Image Successfully Updated!');
+        return redirect()->route('admin.home')->with('message', 'Profile Image Successfully Updated!');
     }
 
     public function postAdminChangeResume(Request $request) {

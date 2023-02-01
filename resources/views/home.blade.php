@@ -61,8 +61,7 @@
         <div class="mast-hr"><hr></div>
         <div class="row text-justify mt-4">
             <div class="col-md-3"></div>
-            <div class="col-md-12 col-lg-3"><p>My name is Wyatt Johnson. I'm a Software Engineer in Logan, Utah. I really like back-end development. I prefer to work with the base functions of web apps rather than UI design.</p>
-            <p>I recently graduated from the Web & Mobile Development program at Bridgerland Technical College and I am currently employed as a Web eCommerce Developer at the worlds largest provider of fitness equipment, which is based here in Cache Valley. And here's a photo of me!</p></div>
+            <div class="col-md-12 col-lg-3"><p>{!! $bio !!}</p></div>
             <div class="col-md-12 col-lg-3 text-center"><img class="profile-image rounded" src="{{ asset('storage/img/profileImage.jpg') }}" alt="profile image"></div>
             <div class="col-md-3"></div>
         </div>
@@ -140,7 +139,7 @@
                     Login
                 @endif
                 </a></p>
-                <p>&copy; 2020 Wyatt Johnson</p>
+                <p>&copy; {{ date('Y') }} Wyatt Johnson</p>
             </div>
         </footer>
         <script>
