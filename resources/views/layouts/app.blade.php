@@ -52,6 +52,7 @@
         <script src="{{ asset('js/overhang.min.js') }}"></script>
         <!-- Core theme JS-->
         <script src="{{ asset('js/scripts.js') }}"></script>
-	<script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "Wyatt Johnson","url": "https://www.wyattjohnson.net","sameAs": ["https://www.facebook.com/wyatt.johnson12177/","https://www.instagram.com/wyatt.johnson_/","https://www.linkedin.com/in/wyatt-johnson-aa50421a3/"]}</script>
+	    <script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "Wyatt Johnson","url": "https://www.wyattjohnson.net","sameAs": ["https://www.facebook.com/wyatt.johnson12177/","https://www.instagram.com/wyatt.johnson_/","https://www.linkedin.com/in/wyatt-johnson-aa50421a3/"]}</script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
     </body>
 </html>

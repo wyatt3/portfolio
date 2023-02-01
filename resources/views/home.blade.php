@@ -99,7 +99,7 @@
                     <textarea class="form-control trans-light" rows="5" name="message" placeholder="Message">{{ old('message') }}</textarea>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <input type="submit" class="form-control btn btn-primary" value="Send &nbsp; &raquo;">
+                    <button class="g-recaptcha form-control btn btn-primary" data-sitekey="6LetjEEkAAAAAJ447PTPxwcxmsI46S2KPTWT1oSb" data-callback='onSubmit' data-action='submit'>Send &nbsp; &raquo;</button>
                 </div>
             </div>
         </form>
@@ -143,4 +143,9 @@
                 <p>&copy; 2020 Wyatt Johnson</p>
             </div>
         </footer>
+        <script>
+            function onSubmit(token) {
+                $(".contact-form").submit();
+            }
+        </script>
 @endsection
